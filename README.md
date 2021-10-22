@@ -1,1 +1,1 @@
-# Lulo Coding Notes
+# Coding Notes
