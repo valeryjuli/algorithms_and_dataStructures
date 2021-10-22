@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "code",
+    "target": "ES5",
+    "module": "commonjs",
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
+  },
+  "include": ["code/**/*"],
+  "exclude": ["node_modules"]
+}
