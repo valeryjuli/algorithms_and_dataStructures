@@ -6,7 +6,7 @@ The presence of a tsconfig.json file in a directory indicates that the directory
 - **OPTION A**: Run `tsc --init`.
 - **OPTION B**: Create it, check specs on [TypescriptConfig](https://javascript.plainenglish.io/typescript-configuration-options-tsconfig-json-561d4a2ad4b).
 
-``` JSON
+```
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
