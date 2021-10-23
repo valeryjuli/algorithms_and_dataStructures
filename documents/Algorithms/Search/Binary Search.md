@@ -4,6 +4,9 @@ Binary search is an algorithm that solves a searching problem. It looks for an e
 - Finding a word that begins by 'R' on a dictionary, the best way to do it is to go chop a page in the middle of the dictionary instead of going from the beginning.
 - Finding an username on a list of users on facebook.
 
+
+
+![Binary Search - Grooking](../assets/2021-10-23-23-34-22.png)
 ## Requirements
 * It requires a sorted list of elements.
 
@@ -28,3 +31,4 @@ We are dibing in halves:
 
 The best case would be $O(1)$ if we guess on the first try!
 
+![BigO Binary Search](../assets/2021-10-23-23-36-18.png =300x300)

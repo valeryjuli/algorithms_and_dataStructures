@@ -1,5 +1,6 @@
 # Algorithmic thinking
 Here are my personal notes for the MIT OCW Introduction to Algorithms.
+
 **Books**
 - Cormen, Thomas, Charles Leiserson, Ronald Rivest, and Clifford Stein. Introduction to Algorithms
 
