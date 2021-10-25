@@ -1,5 +1,9 @@
 # Binary Search
 
+## Code and test
+- [Code](../../../code/Algorithms/Search/binary-search/binarySearch.ts)
+- [Test](../../../code/Algorithms/Search/binary-search/binarySearch.spec.ts)
+- 
 Binary search is an algorithm that solves a searching problem. It looks for an element on a sorted list and returns the position of it (if it exists), if it doesn't exists returns **null** for __example:__
 - Finding a word that begins by 'R' on a dictionary, the best way to do it is to go chop a page in the middle of the dictionary instead of going from the beginning.
 - Finding an username on a list of users on facebook.
@@ -8,7 +12,8 @@ Binary search is an algorithm that solves a searching problem. It looks for an e
 
 ![Binary Search - Grooking](../assets/2021-10-23-23-34-22.png)
 ## Requirements
-* It requires a sorted list of elements.
+- It requires a sorted list of elements.
+- It needs **random access**
 
 ## How it works?
 Instead of searching looping one by one through the list, we will filter each time by half of the remaining list until we find the element. At each iteration we need to know if the element is greater or smaller than our current "guess"
