@@ -79,6 +79,16 @@ Packages required by your application in production
 - How to add them? By cmd
   - `npm install <package-name> [--save-prod]`
 
+#### **Generate .tar.gz npm pack**
+To build a `<package-name>-<version>.tar.gz`, on the directory do `npm pack`
+
+#### Install from **.tar.gz**
+To install from a generated package do:
+```JSON
+"dependencies": {
+  "my-package": "file:/./tmp/my-package-1.3.3.tar.gz"
+}
+```
 ## How to use the packages?
 you can use a package in your module by passing it as an argument to the require function.
 ```javascript

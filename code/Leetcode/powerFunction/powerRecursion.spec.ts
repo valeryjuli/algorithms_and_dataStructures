@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { power } from "./powerRecursion";
 
-describe.only('find odds', () => {
+describe('find odds', () => {
     const testCases = [
         {
             input: {base: 2, exponent: 3},
