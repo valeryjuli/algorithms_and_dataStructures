@@ -4,6 +4,7 @@
     "rootDir": "code",
     "target": "ES5",
     "module": "commonjs",
+    "sourceMap": true, // Generate source maps for vscode debug
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
   },
   "include": ["code/**/*"],

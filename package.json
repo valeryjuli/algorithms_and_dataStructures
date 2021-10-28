@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha -r ts-node/register code/**/*.spec.ts",
     "test-watch": "mocha -r ts-node/register --watch --watch-files code/**/*.ts code/**/*.spec.ts",
-    "test-unit": "nyc npm run test"
+    "test-unit": "nyc npm run test",
+    "build": "ts-node code/**/*.ts"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,1 @@
+console.log('yep'[0].toUpperCase())

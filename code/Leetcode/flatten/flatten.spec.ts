@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { flatten, flattenOptimal } from "./flatten";
 
-describe.only('Flatten array of arrays recursively', () => {
+describe('Flatten array of arrays recursively', () => {
     const testCases = [
         {
             input: [1, 2, 3, [4, 5] ],

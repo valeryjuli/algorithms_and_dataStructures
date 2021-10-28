@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { someRecursive } from "./someRecursive";
 
-describe.only('Array.some() recursively', () => {
+describe('Array.some() recursively', () => {
     const testCases = [
         {
             input: [1, 2, 3, 4],
