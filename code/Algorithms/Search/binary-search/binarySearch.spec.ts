@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { binarySearch } from "./binarySearch";
+import { binarySearch, binarySearchRecursive } from "./binarySearch";
 
 describe('Binary search', () => {
     const testCases = [
@@ -27,6 +27,13 @@ describe('Binary search', () => {
     testCases.forEach((testCase, i) => {
         it(`should return the index of searched item ${testCase.item} for case ${i}`, () => {
             const result = binarySearch(testCase.sortedArray, testCase.item);
+            expect(result).to.equal(testCase.result);
+        })
+    });
+    
+    testCases.forEach((testCase, i) => {
+        it(`should return the index of searched item ${testCase.item} for case ${i}`, () => {
+            const result = binarySearchRecursive(testCase.sortedArray, testCase.item);
             expect(result).to.equal(testCase.result);
         })
     });

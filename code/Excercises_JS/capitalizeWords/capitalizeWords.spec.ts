@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { capitalizeWords } from "./capitalizeWords";
 
-describe.only('capitalize strings', () => {
+describe('capitalize strings', () => {
     const testCases = [
         {
             input: ['hello', 'rere', 'toto'],

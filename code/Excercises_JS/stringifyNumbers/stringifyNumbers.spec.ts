@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import { stringifyNumbers, stringifyNumbersOptimized } from "./stringifyNumbers";
 
-describe.only('stringify numbers on an object', () => {
+describe('stringify numbers on an object', () => {
     let testCases = [];
 
     beforeEach(() => {
