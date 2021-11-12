@@ -26,7 +26,7 @@ describe('verify if there is a pair whose average is the specified', () => {
         }
     ]
     testCases.forEach((testCase, i) => {
-        it.only(`should true if there is a pair in ${testCase.input} whose average is ${testCase.avg}`, () => {
+        it(`should true if there is a pair in ${testCase.input} whose average is ${testCase.avg}`, () => {
             const result = averagePair(testCase.input, testCase.avg);
             expect(result).to.deep.equal(testCase.output);
         })

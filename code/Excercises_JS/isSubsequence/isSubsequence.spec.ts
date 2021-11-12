@@ -20,11 +20,11 @@ describe('verify characters on first string form a subsequence in second string'
         },
     ]
     testCases.forEach((testCase, i) => {
-        it.only(`verify characters on first string form a subsequence in second string`, () => {
+        it(`verify characters on first string form a subsequence in second string`, () => {
             const result = isSubsequence(testCase.input1, testCase.input2);
             expect(result).to.deep.equal(testCase.output);
         })
-        it.only(`Recursive solution to verify characters on first string form a subsequence in second string`, () => {
+        it(`Recursive solution to verify characters on first string form a subsequence in second string`, () => {
             const result = isSubsequenceRecursive(testCase.input1, testCase.input2);
             expect(result).to.deep.equal(testCase.output);
         })
